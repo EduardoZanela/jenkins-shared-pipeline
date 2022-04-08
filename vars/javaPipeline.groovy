@@ -22,7 +22,7 @@ def call() {
     pipeline {
         agent any
         tools {
-            maven 'apache-maven-3.6.3'
+            maven 'apache-maven'
         }
         stages {
             stage("Building Application") {
